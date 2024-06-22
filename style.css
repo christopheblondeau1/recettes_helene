@@ -1,0 +1,147 @@
+/* PAGE PRINCIPALE */
+
+body {
+    background-color: beige;
+
+}
+
+
+.principale h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.principale img {
+    display: inline-block;
+    width: 80%;
+    position: absolute;
+    margin-top: -35px;
+    opacity: 0.4;
+  
+}
+
+
+.principale h2 {
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+}
+
+.principale p {
+    margin-top: 20px;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+.float_right {
+    float: right;
+}
+
+div.recettes_sucrees {
+    position: relative;
+    width: 30%;
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+div.recettes_salees {
+    position:relative;
+    width: 45%;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+/* PAGE SECONDAIE */
+
+div.secondaire {
+    position: relative;
+}
+.secondaire img {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 30px;
+    opacity: 0.85;
+}
+
+.secondaire h1 {
+    
+    font-size: 50px;
+    text-align: center;
+}
+
+.secondaire h2 {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.secondaire p {
+    font-size: 20px;
+   
+}
+
+.colonne1 {
+    position: absolute;
+    display: block;
+    width: 50%;
+    margin-left: 10px;
+}
+
+.colonne2 {
+    width: 50%;
+}
+
+/* RESPONSIVE DESIGN : MOBILE */
+@media only screen and (max-width: 767px) {
+    .principale h1 {
+        font-size: 30px;
+    }
+
+    .principale h2 {
+        font-size: 20px;
+    }
+    
+    .principale p {
+        font-size: 14px;
+    }
+
+    .info-juridique {
+        font-size: 8px;
+    }
+
+    .secondaire h1 {
+        font-size: 30px;
+    }
+
+    .secondaire h2 {
+        margin-top: 15px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .secondaire p {
+        font-size: 14px;
+        margin-left: 10px;
+       
+    }
+
+    .secondaire img {
+        margin-top: 10px;
+
+    }
+
+    .colonne1 {
+        position: relative;
+        width: 100%;
+    }
+    
+    .colonne2 {
+        width: 100%;
+    }
+
+    .colonne1 {
+        margin-left: 0px;
+    }
+    
+}
